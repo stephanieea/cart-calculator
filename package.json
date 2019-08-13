@@ -1,0 +1,26 @@
+{
+  "name": "cart-calculator",
+  "version": "1.0.0",
+  "description": "technical challenge to calculate the correct price (with discounts) for any given shopping cart combination of books (of a five book series)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha -R spec tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephanieEA/cart-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanieEA/cart-calculator/issues"
+  },
+  "homepage": "https://github.com/StephanieEA/cart-calculator#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "mocha": "^6.2.0"
+  }
+}
